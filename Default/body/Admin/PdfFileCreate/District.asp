@@ -1,0 +1,140 @@
+
+<% dim district_Array(64)
+   dim district_options
+district_Array(1)="B. Baria"
+district_Array(2)="Bagerhat"
+district_Array(3)="Bandarban"
+district_Array(4)="Barisal"
+district_Array(5)="Bhola"
+district_Array(6)="Bogra"
+district_Array(7)="Borguna"
+district_Array(8)="Chandpur"
+district_Array(9)="Chapainawabganj"
+district_Array(10)="Chittagong"
+district_Array(11)="Chuadanga"
+district_Array(12)="Comilla"
+district_Array(13)="Cox's Bazar"
+district_Array(14)="Dhaka"
+district_Array(15)="Dinajpur"
+district_Array(16)="Faridpur"
+district_Array(17)="Feni"
+district_Array(18)="Gaibandha"
+district_Array(19)="Gazipur"
+district_Array(20)="Gopalgonj"
+district_Array(21)="Hobigonj"
+district_Array(22)="Jamalpur"
+district_Array(23)="Jessore"
+district_Array(24)="Jhalokathi"
+district_Array(25)="Jhenaidah"
+district_Array(26)="Joypurhat"
+district_Array(27)="Khagrachari"
+district_Array(28)="Khulna"
+district_Array(29)="Kishorgonj"
+district_Array(30)="Kurigram"
+district_Array(31)="Kushtia"
+district_Array(32)="Lalmonirhat"
+district_Array(33)="Laxmipur"
+district_Array(34)="Madaripur"
+district_Array(35)="Magura"
+district_Array(36)="Manikgonj"
+district_Array(37)="Meherpur"
+district_Array(38)="MoulaviBazar"
+district_Array(39)="Munshigonj"
+district_Array(40)="Mymensingh"
+district_Array(41)="Naogaon"
+district_Array(42)="Narail"
+district_Array(43)="Narayangonj"
+district_Array(44)="Narshingdi"
+district_Array(45)="Natore"
+district_Array(46)="Netrokona"
+district_Array(47)="Nilphamari"
+district_Array(48)="Noakhali"
+district_Array(49)="Pabna"
+district_Array(50)="Panchagahr"
+district_Array(51)="Patuakhali"
+district_Array(52)="Pirojpur"
+district_Array(53)="Rajbari"
+district_Array(54)="Rajshahi"
+district_Array(55)="Rangamati"
+district_Array(56)="Rangpur"
+district_Array(57)="Satkhira"
+district_Array(58)="Shariatpur"
+district_Array(59)="Sherpur"
+district_Array(60)="Sirajgonj"
+district_Array(61)="Sunamgonj"
+district_Array(62)="Sylhet"
+district_Array(63)="Tangail"
+district_Array(64)="Thakurgaon"
+
+district_options= "<option value='1'>B. Baria</option>" & chr(10) &_
+      "<option value='2'>Bagerhat</option>" & chr(10) &_
+      "<option value='3'>Bandarban</option>" & chr(10) &_
+      "<option value='4'>Barisal</option>" & chr(10) &_
+      "<option value='5'>Bhola</option>" & chr(10) &_
+      "<option value='6'>Bogra</option>" & chr(10) &_
+      "<option value='7'>Borguna</option>" & chr(10) &_
+      "<option value='8'>Chandpur</option>" & chr(10) &_
+      "<option value='9'>Chapainawabganj</option>" & chr(10) &_
+      "<option value='10'>Chittagong</option>" & chr(10) &_
+      "<option value='11'>Chuadanga</option>" & chr(10) &_
+      "<option value='12'>Comilla</option>" & chr(10) &_
+      "<option value='13'>Cox's Bazar</option>" & chr(10) &_
+      "<option value='14'>Dhaka</option>" & chr(10) &_
+      "<option value='15'>Dinajpur</option>" & chr(10) &_
+      "<option value='16'>Faridpur</option>" & chr(10) &_
+      "<option value='17'>Feni</option>" & chr(10) &_
+      "<option value='18'>Gaibandha</option>" & chr(10) &_
+      "<option value='19'>Gazipur</option>" & chr(10) &_
+      "<option value='20'>Gopalgonj</option>" & chr(10) &_
+      "<option value='21'>Hobigonj</option>" & chr(10) &_
+      "<option value='22'>Jamalpur</option>" & chr(10) &_
+      "<option value='23'>Jessore</option>" & chr(10) &_
+      "<option value='24'>Jhalokathi</option>" & chr(10) &_
+      "<option value='25'>Jhenaidah</option>" & chr(10) &_
+      "<option value='26'>Joypurhat</option>" & chr(10) &_
+      "<option value='27'>Khagrachari</option>" & chr(10) &_
+      "<option value='28'>Khulna</option>" & chr(10) &_
+      "<option value='29'>Kishorgonj</option>" & chr(10) &_
+      "<option value='30'>Kurigram</option>" & chr(10) &_
+      "<option value='31'>Kushtia</option>" & chr(10) &_
+      "<option value='32'>Lalmonirhat</option>" & chr(10) &_
+      "<option value='33'>Laxmipur</option>" & chr(10) &_
+      "<option value='34'>Madaripur</option>" & chr(10) &_
+      "<option value='35'>Magura</option>" & chr(10) &_
+      "<option value='36'>Manikgonj</option>" & chr(10) &_
+      "<option value='37'>Meherpur</option>" & chr(10) &_
+      "<option value='38'>MoulaviBazar</option>" & chr(10) &_
+      "<option value='39'>Munshigonj</option>" & chr(10) &_
+      "<option value='40'>Mymensingh</option>" & chr(10) &_
+      "<option value='41'>Naogaon</option>" & chr(10) &_
+      "<option value='42'>Narail</option>" & chr(10) &_
+      "<option value='43'>Narayangonj</option>" & chr(10) &_
+      "<option value='44'>Narshingdi</option>" & chr(10) &_
+      "<option value='45'>Natore</option>" & chr(10) &_
+      "<option value='46'>Netrokona</option>" & chr(10) &_
+      "<option value='47'>Nilphamari</option>" & chr(10) &_
+      "<option value='48'>Noakhali</option>" & chr(10) &_
+      "<option value='49'>Pabna</option>" & chr(10) &_
+      "<option value='50'>Panchagahr</option>" & chr(10) &_
+      "<option value='51'>Patuakhali</option>" & chr(10) &_
+      "<option value='52'>Pirojpur</option>" & chr(10) &_
+      "<option value='53'>Rajbari</option>" & chr(10) &_
+      "<option value='54'>Rajshahi</option>" & chr(10) &_
+      "<option value='55'>Rangamati</option>" & chr(10) &_
+      "<option value='56'>Rangpur</option>" & chr(10) &_
+      "<option value='57'>Satkhira</option>" & chr(10) &_
+      "<option value='58'>Shariatpur</option>" & chr(10) &_
+      "<option value='59'>Sherpur</option>" & chr(10) &_
+      "<option value='60'>Sirajgonj</option>" & chr(10) &_
+      "<option value='61'>Sunamgonj</option>" & chr(10) &_
+      "<option value='62'>Sylhet</option>" & chr(10) &_
+      "<option value='63'>Tangail</option>" & chr(10) &_
+      "<option value='64'>Thakurgaon</option>" & chr(10) 
+
+
+
+
+
+
+%>
+

@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+.oFormError:before, .oFormErrorJumbo:before, .oPwdIndicator:before {
+    background-image: url("images/formErrorIcon.svg");
+}
+.oFormMsg:before, .oPwdIndicator:before {
+    background: none no-repeat scroll center center rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    height: 16px;
+    left: 8px;
+    position: absolute;
+    top: 10px;
+    width: 16px;
+}
+.oFormError:after, .oFormErrorJumbo:after, .oPwdIndicator:after {
+    border-left: 5px solid #ec6a38;
+}
+.oFormMsg:after, .oPwdIndicator:after {
+    background-image: url("images/formErrorIcon.svg");
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    left: 100%;
+    top: 12px;
+    width: 0;
+}
+.oSignupForm .oSignupFields .oFormError, .oSignupForm .oSignupFields .oPwdErr {
+    margin-left: 8px;
+    margin-top: 4px;
+    width: 300px;
+    z-index: 10;
+}
+.oFormError, .oFormErrorJumbo, .oPwdIndicator {
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-name: bounce;
+    background-color: #ec6a38;
+    color: #fff;
+    position: absolute;
+}
+.oFormMsg, .oPwdIndicator {
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin: 0 0 0 22px;
+    padding: 9px 13px 8px 30px;
+    position: relative;
+    text-indent: 0;
+    vertical-align: middle;
+}
+.oFormMsg, .oPwdIndicator {
+    margin-left: 5px;
+    margin-top: 4px;
+    vertical-align: top !important;
+}
+* {
+    box-sizing: border-box;
+}
+
+.oFormError::after, .oFormErrorJumbo::after, .oPwdIndicator::after {
+    border-left: 5px solid #ec6a38;
+}
+.oFormErrorJumbo {
+    font-size: 13px;
+    height: 48px;
+    padding-top: 15px;
+}
+.oFormErrorJumbo::before {
+    height: 30px;
+}
+.oFormErrorJumbo::after {
+    top: 18px;
+}
+.oFormErrorBottom, .oFormSuccessBottom {
+    margin: 12px 0 0 200px;
+    position: relative;
+}
+.oFormErrorBottom::after, .oFormSuccessBottom::after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent #ec6a38;
+    border-image: none;
+    border-style: solid;
+    border-width: 5px;
+    left: 11px;
+    right: auto;
+    top: -10px;
+}
+.oFormSuccessBottom {
+    margin: 12px 0 0;
+}
+.oFormSuccessBottom::after {
+    border-bottom-color: #7bd454;
+}
+.oFieldValue .oFormErrorBottom, .oCountdown .oFormErrorBottom, .oFormTop .oFormErrorBottom {
+    margin-left: 0;
+}
+select + .oFormMsg:not(.oFormErrorBottom), select + .oPwdIndicator:not(.oFormErrorBottom) {
+    margin-top: -5px;
+}

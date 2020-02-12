@@ -1,0 +1,1 @@
+<%strBody = strBody &"<table width='100%' border='1' cellspacing='0' cellpadding='0'> <tr>   <td width='50%'><strong>Present Address</strong></td>   <td width='50%'><strong>Permanent Address</strong></td> </tr> <tr>   <td>"&strContactAddress&"</td>   <td>"&strPermanentAddress&"</td> </tr></table>"%>

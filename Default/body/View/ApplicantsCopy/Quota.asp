@@ -1,0 +1,6 @@
+<%strBody = strBody &"<table width='100%'  cellspacing='0' cellpadding='0' style='font-size:11pt;' ><tr><td width='15%'>Fredom Fighter Status</td><td width='5%'>:</td><td width='30%' style='padding-left:20px;'>"&FF&"</td><td width='15%'>Marital Status</td><td width='5%'>:</td><td width='30%' style='padding-left:20px;' >"&strMeritalStatus
+
+If strGender = "Female" and strMeritalStatus = "Married" Then 
+strBody = strBody &"-Spouse Name : "&strHusband
+End If 
+strBody = strBody &"</td></tr><tr><td>Orphan</td><td>:</td><td style='padding-left:20px;'>"&Orphan&"</td><td>Physically Challenged</td><td>:</td><td style='padding-left:20px;'>"&Disable&"</td></tr><tr><td>Tribal</td><td>:</td><td style='padding-left:20px;'>"&Tribal&"</td><td>Ansar-VDP</td><td>:</td><td style='padding-left:20px;'>"&AnsarVdp&"</td></tr><tr><td>National ID</td><td>:</td><td style='padding-left:20px;'>"&intNationalID&"</td><td>Home District</td><td>:</td><td style='padding-left:20px;'>"&strHomeDistBDJ&"</td></tr><tr><td valign='top'>Present Address</td><td valign='top' >:</td><td style='padding-left:20px;' valign='top'>"&strContactAddress&"</td><td valign='top'>Present Address</td><td valign='top'>:</td><td style='padding-left:20px;' valign='top'>"&strPermanentAddress&"</td></tr></table>"%>

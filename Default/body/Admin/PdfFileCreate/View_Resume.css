@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+Body
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+	}	
+	.BDJSectionHeadLine
+	{
+		font-size:12px;
+		font-weight:bold;
+		color:#FFFFFF;
+		padding-top:3px;
+		padding-bottom:3px;
+	}
+	.BDJLabelText
+	{
+		font-size:10px;
+		font-weight:bold;
+		color:#000000;
+		padding-right:5px;
+	}
+	.BDJBlackColorText
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		color:#000000;
+		padding-left:10px;
+	}	
+	.BDJRedColorText
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		color:#CC0000;
+		padding-left:2px;
+	}			
+	.BDJStar
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		color:#CC0000;
+		padding-left:2px;
+	}		
