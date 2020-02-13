@@ -1,0 +1,95 @@
+@media (min-width: 1200px){
+	.footer-area .container{
+		width: 990px;
+	}
+}
+	
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+	.body-area{
+		margin-bottom: 0;
+	}
+	.navbar-nav{
+		float: left;
+		padding-left: 20px;
+	}
+	.nav > li{
+		float: left;
+	}
+	.user-contents-area{
+		text-align: center;
+	}
+	.user-options .btn{
+		width: 100%;
+	}
+	.footer-area .copy-right ul{
+		float: left;
+		margin-top: 10px;
+	}
+	.footer-area{
+		bottom: auto;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+
+}
+
+@media only screen and (max-width: 768px){
+	.logo-area{
+		text-align: center;
+	}
+	.body-area{
+		margin-left: 0px;
+	}
+	.site-map h1{
+		width: 100%;
+		border-radius: 4px 4px 0px 0px;
+		margin-bottom: 10px;
+	}
+	.site-map{
+		margin-bottom: 50px;
+	}
+	.nav-side-menu{
+		margin-bottom: 0;
+	}
+	.site-map .breadcrumb{
+		padding-bottom: 10px;
+	}
+	.navbar-nav{
+		text-align: center;
+	}
+	.user-options .btn .icon {
+    	height: 80px;
+    	width: 80px;
+    }
+	.user-options .btn{
+		
+		height: 100px;
+	}
+	.user-options .btn i {
+	    font-size: 30px;
+	    padding-top: 25px;
+	}
+	.user-options .btn .btn-text{
+		font-size: 14px;
+	}
+	.footer-area{
+		
+	}
+}
+
+@media only screen and (max-width: 468px){
+	.user-options .btn{
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) {
+ 
+}
+@media only screen and (min-width: 991px) {
+
+}

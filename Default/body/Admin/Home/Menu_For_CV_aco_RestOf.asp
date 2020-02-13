@@ -1,0 +1,24 @@
+  
+  
+        <form action="" > 
+ 
+                            <script>
+                            function Signature111111111()
+							{
+								document.getElementById('Signature2222222').submit();
+							}
+                            </script>
+                          <input type="hidden" id="position" name="position" value="<%=position%>" />
+                            <input type="hidden" id="jobid" name="jobid" value="<%=jobid%>" /> 
+                             
+                               <input type="hidden"  name="txtUserName" id="txtUserName" value="<%=strUserName%>" />
+    
+                             <input type="hidden" name="txtPassword" id="txtPassword" value="<%=strPassword%>"  />
+
+<a id="Signature22" href="http://ers.bdjobs.com/applications/imageresize/photos/pcb/resumes/eligible/acorestof.zip" class="box-wrap" title="Signature" >
+									<i class="fa fa-download icon" aria-hidden="true"></i>
+									<h3 class="title">Download Resume Rest of  For Assistant Cash Officer (972)</h3>
+</a>                          
+                           
+     </form>  
+  
